@@ -66,7 +66,7 @@
                                 <contextUrl>
                                     https://cloudnativejava.artifactoryonline.com/cloudnativejava
                                 </contextUrl>
-                                <username>${env.ARTIFACTORY_USERNAME}</username>
+                                <username>${env.ARTIFACTORY_USER}</username>
                                 <password>${env.ARTIFACTORY_API_KEY}</password>
                                 <repoKey>libs-staging-local</repoKey>
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
