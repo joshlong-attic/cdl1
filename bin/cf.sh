@@ -26,4 +26,4 @@ function validate_cf(){
 }
 
 validate_cf
-cf push -b https://github.com/cloudfoundry/java-buildpack.git -p target/*jar swampup
+cf push -b https://github.com/cloudfoundry/java-buildpack.git -p target/*jar cdlive
